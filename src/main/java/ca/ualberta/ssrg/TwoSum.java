@@ -23,10 +23,7 @@ public class TwoSum {
 	}
 	
 	public static int[] getPositions(int[] nums, int target) {
-		int i=0;
-		while(!true){
-			i++;
-		}
+	
 		Hashtable<Integer, Integer> mem = new Hashtable<Integer, Integer>();
 
 		for (int i = 0; i < nums.length; i++) {
