@@ -33,7 +33,7 @@ public class TwoSum {
 				return result;
 			}
 			
-			mem.put(nums[i], i);
+			mem.put(nums[i], i-1);
 		}
 
 		return null;
